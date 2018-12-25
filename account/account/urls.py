@@ -5,5 +5,5 @@ from . import view
 
 urlpatterns = [
     url(r'^$', view.account),
-
+    url(r'^show$', view.show),
 ]
